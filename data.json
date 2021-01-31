@@ -8,5 +8,10 @@
         "name": "Kevin",
         "team": "Durant",
         "points": 26
+    },
+    {
+        "name": "David",
+        "team": "Washburn",
+        "points": 24
     }
 ] 

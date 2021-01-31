@@ -13,5 +13,10 @@
         "name": "David",
         "team": "Washburn",
         "points": 24
-    }
+    },
+    {
+        "name": "Jimmy",
+        "team": "Goodwin",
+        "points": 23
+    }    
 ] 

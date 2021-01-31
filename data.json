@@ -23,5 +23,9 @@
         "name": "Danny",
         "team": "West",
         "points": 33
-    }       
-] 
+    },
+    {
+        "name": "Lenard",
+        "team": "Bias",
+        "points": 33
+    }  ] 

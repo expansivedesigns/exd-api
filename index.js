@@ -24,6 +24,6 @@ app.listen(port, () => {
 })
 
 //step 4:  download and install heroku close folder and reopen.  login
-//setp 5: create Procfile
+//setp 5: create Procfile file - no extention
 //step 6:  in terminal heroku create my-app and start pushing changes using git commit 
 //step 7: 1) git add .  2) git commit -m "first commit"  3) git push heroku master

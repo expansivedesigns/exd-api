@@ -23,7 +23,11 @@ app.listen(port, () => {
     console.log('Example app is listening on http://localhost:${port}')
 })
 
-//step 4: download and install heroku close folder and reopen.  login
-//setp 5: create Procfile file - no extention
-//step 6: in terminal heroku create my-app and start pushing changes using git commit 
-//step 7: heroku login 1) git init 2) git add . 3) git commit -m "first commit"  4) git push heroku master
+//step 4: make a new repository exd-api
+//step 5: create .gitignore
+//step 6: follow instructions in github page on deploying repository
+//step 7: type heroku login on command line
+//step 8: type 'git push heroku master' to push changes api from github to heroku
+//setp : create Procfile file - no extention
+//step : in terminal heroku create my-app and start pushing changes using git commit 
+//step : heroku login 1) git init 2) git add . 3) git commit -m "first commit"  4) git push heroku master

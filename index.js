@@ -1,3 +1,16 @@
+// const jsonServer = require('json-server')
+// const server = jsonServer.create()
+// const router = jsonServer.router('data.json')
+// const middlewares = jsonServer.defaults()
+// let port = process.env.port || 4000
+
+// server.use(middlewares)
+// server.use(router)
+
+// server.listen(port)
+
+
+
 //step 1
 //import express from 'express'
 const express = require("express")
@@ -25,9 +38,8 @@ app.listen(port, () => {
 
 //step 4: make a new repository exd-api
 //step 5: create .gitignore
+//setp : create Procfile file - no extention
 //step 6: follow instructions in github page on deploying repository
 //step 7: type heroku login on command line
-//step 8: type 'git push heroku master' to push changes api from github to heroku
-//setp : create Procfile file - no extention
-//step : in terminal heroku create my-app and start pushing changes using git commit 
-//step : heroku login 1) git init 2) git add . 3) git commit -m "first commit"  4) git push heroku master
+//step : in terminal heroku create my-app 8: type 'git push heroku main master' to push changes api from github to heroku
+//step : heroku login 1) git init 2) git add . 3) git commit -m "first commit"  4) 'git push heroku main' or mastr

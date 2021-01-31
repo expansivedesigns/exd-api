@@ -13,8 +13,8 @@ server.listen(port)
 
 //step 1
 //import express from 'express'
-const express = require("express")
-const app = express()
+// const express = require("express")
+// const app = express()
 
 // //step 3
 // const importData = require("./data.json")

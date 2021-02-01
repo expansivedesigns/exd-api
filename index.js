@@ -1,3 +1,4 @@
+const nodemon = require("nodemon")
 const express = require("express")
 const app = express()
 
@@ -14,4 +15,6 @@ app.get("/players", (req, res) => {
     res.send(importData)
 })
 
-app.listen(port)
+app.listen(port, () => {
+    console.log('Listening on http://localhost:${port}')
+})
